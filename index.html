@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>B. Rajasekar – Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary-color: #2563eb;
+      --secondary-color: #1e40af;
+      --accent-color: #3b82f6;
+      --text-dark: #1f2937;
+      --text-light: #6b7280;
+      --bg-light: #f8fafc;
+      --card-bg: #ffffff;
+      --border-color: #e5e7eb;
+      --success-color: #10b981;
+      --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      line-height: 1.6;
+      color: var(--text-dark);
+    }
+
+    .main-container {
+      background: var(--card-bg);
+      border-radius: 20px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+      margin: 2rem auto;
+      max-width: 1200px;
+      overflow: hidden;
+    }
+
+    .header-section {
+      background: var(--gradient-primary);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .header-section::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+      animation: float 6s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-20px) rotate(180deg); }
+    }
+
+    .profile-name {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    }
+
+    .profile-title {
+      font-size: 1.2rem;
+      font-weight: 300;
+      opacity: 0.9;
+      margin-bottom: 2rem;
+    }
+
+    .contact-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(255,255,255,0.1);
+      padding: 0.75rem 1rem;
+      border-radius: 10px;
+      backdrop-filter: blur(10px);
+      transition: all 0.3s ease;
+    }
+
+    .contact-item:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-2px);
+    }
+
+    .contact-item i {
+      font-size: 1.1rem;
+      width: 20px;
+    }
+
+    .content-section {
+      padding: 3rem 2rem;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: var(--primary-color);
+      margin: 3rem 0 1.5rem 0;
+      padding-bottom: 0.5rem;
+      border-bottom: 3px solid var(--accent-color);
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-title::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 60px;
+      height: 3px;
+      background: var(--gradient-secondary);
+      border-radius: 2px;
+    }
+
+    .section-title i {
+      font-size: 1.5rem;
+      color: var(--accent-color);
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--border-color);
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--gradient-primary);
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);
+    }
+
+    .project-card {
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      border: 1px solid var(--border-color);
+      border-radius: 15px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .project-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: var(--gradient-secondary);
+    }
+
+    .project-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 25px -8px rgba(0, 0, 0, 0.2);
+      background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    }
+
+    .project-title {
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .project-description {
+      color: var(--text-light);
+      font-size: 0.95rem;
+    }
+
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .skill-category {
+      background: var(--bg-light);
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid var(--border-color);
+    }
+
+    .skill-category h5 {
+      color: var(--primary-color);
+      font-weight: 600;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .skill-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .skill-tag {
+      background: var(--gradient-primary);
+      color: white;
+      padding: 0.4rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .skill-tag:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .experience-item {
+      border-left: 3px solid var(--accent-color);
+      padding-left: 1.5rem;
+      margin-bottom: 2rem;
+      position: relative;
+    }
+
+    .experience-item::before {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top: 0;
+      width: 14px;
+      height: 14px;
+      background: var(--accent-color);
+      border-radius: 50%;
+      border: 3px solid white;
+      box-shadow: 0 0 0 3px var(--accent-color);
+    }
+
+    .experience-title {
+      font-weight: 600;
+      color: var(--primary-color);
+      margin-bottom: 0.5rem;
+    }
+
+    .experience-period {
+      color: var(--text-light);
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .github-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--gradient-primary);
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+      margin: 1rem 0;
+    }
+
+    .github-link:hover {
+      color: white;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .stat-card {
+      background: var(--gradient-primary);
+      color: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      text-align: center;
+      transition: all 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .stat-card.clickable {
+      cursor: pointer;
+      position: relative;
+    }
+
+    .dropdown-icon {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 0.8rem;
+      transition: transform 0.3s ease;
+    }
+
+    .dropdown-icon.rotated {
+      transform: rotate(180deg);
+    }
+
+    .dropdown-content {
+      display: none;
+      background: var(--card-bg);
+      border-radius: 15px;
+      padding: 2rem;
+      margin: 1rem 0;
+      box-shadow: 0 8px 25px -8px rgba(0, 0, 0, 0.15);
+      border: 1px solid var(--border-color);
+      animation: slideDown 0.3s ease;
+    }
+
+    .dropdown-content.show {
+      display: block;
+    }
+
+    @keyframes slideDown {
+      from {
+        opacity: 0;
+        transform: translateY(-10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .dropdown-content h4 {
+      color: var(--primary-color);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 0.75rem;
+    }
+
+    .project-item-small {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem;
+      background: var(--bg-light);
+      border-radius: 8px;
+      border-left: 3px solid var(--accent-color);
+      transition: all 0.3s ease;
+    }
+
+    .project-item-small:hover {
+      background: white;
+      transform: translateX(5px);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .project-number {
+      font-weight: 600;
+      color: var(--accent-color);
+      min-width: 30px;
+    }
+
+    .project-name {
+      color: var(--text-dark);
+      font-size: 0.9rem;
+    }
+
+    .project-note, .tech-note {
+      grid-column: 1 / -1;
+      text-align: center;
+      padding: 1rem;
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      color: white;
+      border-radius: 10px;
+      margin-top: 1rem;
+    }
+
+    .project-note i, .tech-note i {
+      margin-right: 0.5rem;
+    }
+
+    .tech-categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .tech-category-item {
+      background: var(--bg-light);
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    .tech-category-item h5 {
+      color: var(--primary-color);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .tech-tags-small {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tech-tag-small {
+      background: var(--gradient-primary);
+      color: white;
+      padding: 0.3rem 0.6rem;
+      border-radius: 15px;
+      font-size: 0.8rem;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .tech-tag-small:hover {
+      transform: scale(1.05);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .stat-number {
+      font-size: 2rem;
+      font-weight: 700;
+      display: block;
+    }
+
+    .stat-label {
+      font-size: 0.9rem;
+      opacity: 0.9;
+    }
+
+    footer {
+      background: var(--text-dark);
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 768px) {
+      .profile-name {
+        font-size: 2rem;
+      }
+      
+      .contact-info {
+        grid-template-columns: 1fr;
+      }
+      
+      .skills-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .main-container {
+        margin: 1rem;
+        border-radius: 15px;
+      }
+      
+      .header-section {
+        padding: 2rem 1rem;
+      }
+      
+      .content-section {
+        padding: 2rem 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="main-container">
+    <!-- Header Section -->
+    <div class="header-section">
+      <h1 class="profile-name">B. Rajasekar</h1>
+      <p class="profile-title">AI/ML Engineer • IoT Specialist • Full Stack Developer</p>
+      
+      <div class="contact-info">
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <span>8807796595</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <span>rajasekar.rk96@gmail.com</span>
+        </div>
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Puducherry, India</span>
+        </div>
+        <div class="contact-item">
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/rajasekar-rr" target="_blank" style="color: white; text-decoration: none;">linkedin.com/in/rajasekar-rr</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content-section">
+      <!-- Stats Section -->
+      <div class="stats-grid">
+        <div class="stat-card clickable" onclick="toggleProjects()">
+          <span class="stat-number">100+</span>
+          <span class="stat-label">Projects Mentored</span>
+          <i class="fas fa-chevron-down dropdown-icon" id="projects-icon"></i>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">1000+</span>
+          <span class="stat-label">Students Trained</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-card clickable" onclick="toggleTechnologies()">
+          <span class="stat-number">15+</span>
+          <span class="stat-label">Technologies Mastered</span>
+          <i class="fas fa-chevron-down dropdown-icon" id="tech-icon"></i>
+        </div>
+      </div>
+
+      <!-- Projects Dropdown -->
+      <div id="projects-dropdown" class="dropdown-content">
+        <h4><i class="fas fa-project-diagram"></i> Complete Project List</h4>
+        <div class="projects-grid">
+          <div class="project-item-small">
+            <span class="project-number">1.</span>
+            <span class="project-name">Circle Light Control System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">2.</span>
+            <span class="project-name">AC Gas Detection System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">3.</span>
+            <span class="project-name">Voice Control Robotic Arm</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">4.</span>
+            <span class="project-name">Bluetooth Voice Control Wheelchair</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">5.</span>
+            <span class="project-name">Metal Detection Smart Dustbin</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">6.</span>
+            <span class="project-name">RGCET Lungs Monitoring System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">7.</span>
+            <span class="project-name">Smart Agricultural Monitoring System with Color, Temperature & Soil Sensors</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">8.</span>
+            <span class="project-name">Deaf and Dumb Communication Aid</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">9.</span>
+            <span class="project-name">Bus Tracking System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">10.</span>
+            <span class="project-name">Blind Kit with ESP32-CAM and 6 Modules</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">11.</span>
+            <span class="project-name">Smart Speed Control Project</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">12.</span>
+            <span class="project-name">Fall Detection System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">13.</span>
+            <span class="project-name">NodeMCU Smart Energy Meter with GSM</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">14.</span>
+            <span class="project-name">Industrial Gas Detection System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">15.</span>
+            <span class="project-name">Smart Parking Platform with Genetic Optimization</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">16.</span>
+            <span class="project-name">Smart Baby Cradle System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">17.</span>
+            <span class="project-name">Helmet-Integrated Motorcycle Safety System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">18.</span>
+            <span class="project-name">Hairpin Bend Safety with Ultrasonic Sensors</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">19.</span>
+            <span class="project-name">Women Safety Alert System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">20.</span>
+            <span class="project-name">Obstacle Detection System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">21.</span>
+            <span class="project-name">Mining Helmet Safety Project</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">22.</span>
+            <span class="project-name">Animal Well Monitoring System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">23.</span>
+            <span class="project-name">Automatic Water Tank Controller</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">24.</span>
+            <span class="project-name">Fitness Tracking System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">25.</span>
+            <span class="project-name">Collision Avoidance System for Hairpin Bends</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">26.</span>
+            <span class="project-name">Healthcare Tracking System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">27.</span>
+            <span class="project-name">Multiple Solar Panel with Pole Structure</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">28.</span>
+            <span class="project-name">WiFi Car with Clap Control</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">29.</span>
+            <span class="project-name">Anastisia Medical Project</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">30.</span>
+            <span class="project-name">Smart Dustbin Project</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">31.</span>
+            <span class="project-name">Bluetooth Voice Control Car</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">32.</span>
+            <span class="project-name">Ink Extraction from Pollution</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">33.</span>
+            <span class="project-name">Mudslide Disaster Monitoring with ESP32</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">34.</span>
+            <span class="project-name">Neck Angle Correction System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">35.</span>
+            <span class="project-name">IR-Based Control System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">36.</span>
+            <span class="project-name">Digital Clock Project</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">37.</span>
+            <span class="project-name">Solar Dryer System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">38.</span>
+            <span class="project-name">Smart Speed Control for Vehicle Safety</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">39.</span>
+            <span class="project-name">Livestock Monitoring System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">40.</span>
+            <span class="project-name">ESP32-CAM with Servo Control</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">41.</span>
+            <span class="project-name">GPS with GSM Communication</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">42.</span>
+            <span class="project-name">Ship Sink Analysis System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">43.</span>
+            <span class="project-name">Automated Trash Compactor with Alert</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">44.</span>
+            <span class="project-name">Smart Lock System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">45.</span>
+            <span class="project-name">Oxygen Tank Control System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">46.</span>
+            <span class="project-name">Non-Invasive Cholesterol & Hemoglobin Measurement</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">47.</span>
+            <span class="project-name">Underground Water Leakage Detection</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">48.</span>
+            <span class="project-name">Accident Prevention for Hairpin Bends</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">49.</span>
+            <span class="project-name">Comprehensive Biomedical Monitoring System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">50.</span>
+            <span class="project-name">Intelligent Home Automation System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">51.</span>
+            <span class="project-name">GPS Module Integration Project</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">52.</span>
+            <span class="project-name">Automated Medical Dispenser for Trains</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">53.</span>
+            <span class="project-name">IoT-Based Smart Biofloc Monitoring</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">54.</span>
+            <span class="project-name">Farm Wildlife Detection & Agriculture</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">55.</span>
+            <span class="project-name">Smart Street Light System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">56.</span>
+            <span class="project-name">Smart Gas Stove Safety System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">57.</span>
+            <span class="project-name">Forest Fire Real-Time Monitoring</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">58.</span>
+            <span class="project-name">Wheelchair Control through Eye Blinking</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">59.</span>
+            <span class="project-name">Smart Agriculture with Solenoid & NPK Sensor</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">60.</span>
+            <span class="project-name">ATM Medical Dispenser with OCR Prescription</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">61.</span>
+            <span class="project-name">Real-Time ECG Signal Acquisition & Anomaly Detection</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">62.</span>
+            <span class="project-name">Bed Sore EMG with TENS Circuit</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">63.</span>
+            <span class="project-name">Heart Attack Detection System</span>
+          </div>
+          <div class="project-item-small">
+            <span class="project-number">64.</span>
+            <span class="project-name">Stroke Detection System</span>
+          </div>
+          <div class="project-note">
+            <i class="fas fa-check-circle"></i>
+            <span>64+ Innovative Projects Completed - Spanning IoT, AI/ML, Healthcare, Agriculture & Safety Systems</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technologies Dropdown -->
+      <div id="tech-dropdown" class="dropdown-content">
+        <h4><i class="fas fa-code"></i> Technologies Mastered</h4>
+        <div class="tech-categories">
+          <div class="tech-category-item">
+            <h5><i class="fas fa-laptop-code"></i> Programming Languages</h5>
+            <div class="tech-tags-small">
+              <span class="tech-tag-small">Python</span>
+              <span class="tech-tag-small">C</span>
+              <span class="tech-tag-small">C++</span>
+              <span class="tech-tag-small">Java</span>
+              <span class="tech-tag-small">JavaScript</span>
+            </div>
+          </div>
+          <div class="tech-category-item">
+            <h5><i class="fas fa-brain"></i> AI/ML Frameworks</h5>
+            <div class="tech-tags-small">
+              <span class="tech-tag-small">TensorFlow</span>
+              <span class="tech-tag-small">PyTorch</span>
+              <span class="tech-tag-small">Scikit-learn</span>
+              <span class="tech-tag-small">OpenCV</span>
+            </div>
+          </div>
+          <div class="tech-category-item">
+            <h5><i class="fas fa-globe"></i> Web Technologies</h5>
+            <div class="tech-tags-small">
+              <span class="tech-tag-small">Flask</span>
+              <span class="tech-tag-small">Django</span>
+              <span class="tech-tag-small">HTML/CSS</span>
+              <span class="tech-tag-small">Bootstrap</span>
+            </div>
+          </div>
+          <div class="tech-category-item">
+            <h5><i class="fas fa-microchip"></i> IoT & Hardware</h5>
+            <div class="tech-tags-small">
+              <span class="tech-tag-small">ESP32</span>
+              <span class="tech-tag-small">Arduino</span>
+              <span class="tech-tag-small">Raspberry Pi</span>
+              <span class="tech-tag-small">Sensors</span>
+            </div>
+          </div>
+          <div class="tech-note">
+            <i class="fas fa-info-circle"></i>
+            <span>Please provide additional technologies to complete the list</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Career Objective -->
+      <h3 class="section-title">
+        <i class="fas fa-bullseye"></i>
+        Career Objective
+      </h3>
+      <div class="card">
+        <p>To work in a challenging and progressive academic or research environment where I can apply my knowledge in Artificial Intelligence, Data Science, IoT, and Electrical Systems, while continuously learning and contributing to student development, institutional growth, and technological innovation.</p>
+      </div>
+
+      <!-- Education -->
+      <h3 class="section-title">
+        <i class="fas fa-graduation-cap"></i>
+        Educational Qualifications
+      </h3>
+      <div class="card">
+        <div class="experience-item">
+          <div class="experience-title">M.Sc. in Yoga</div>
+          <div class="experience-period">Annamalai University, Tamil Nadu – 2020</div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">P.G. Diploma in Yoga Therapy</div>
+          <div class="experience-period">Annamalai University, Tamil Nadu – 2020</div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">P.G. Diploma in Yoga</div>
+          <div class="experience-period">Annamalai University, Tamil Nadu – 2019</div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">B.Tech (Electrical & Electronics Engineering)</div>
+          <div class="experience-period">Sri Ganesh College of Engineering & Technology, Puducherry – 2017</div>
+          <p><strong>CGPA:</strong> 7.68/10</p>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">HSC (Computer Science)</div>
+          <div class="experience-period">Blessed Mother Theresa Model HSS – 2013</div>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">SSLC</div>
+          <div class="experience-period">Blessed Mother Theresa Model HSS – 2011</div>
+        </div>
+      </div>
+
+      <!-- Professional Experience -->
+      <h3 class="section-title">
+        <i class="fas fa-briefcase"></i>
+        Professional Experience
+      </h3>
+      <div class="card">
+        <div class="experience-item">
+          <div class="experience-title">Partner, CFO & COO – Edusphere Solutions</div>
+          <div class="experience-period">Nov 2021 – Present</div>
+          <ul>
+            <li>Co-founded and currently manage Edusphere Solutions, an advanced IT training institute</li>
+            <li>Focused on AI, IoT, Data Science, Full Stack Development, and Embedded Systems</li>
+            <li>Designed hands-on project-based learning modules aligned with real-world applications</li>
+            <li>Mentored 100+ students on live projects and trained 1000+ students in the last 6 years</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">Business Development Manager – NIIT Puducherry</div>
+          <div class="experience-period">May 2018 – Nov 2020</div>
+          <ul>
+            <li>Integrated AI/ML technologies into institutional training modules</li>
+            <li>Developed strategic partnerships and business growth initiatives</li>
+          </ul>
+        </div>
+        <div class="experience-item">
+          <div class="experience-title">Site Engineer – Sri Vasan Electrical Contracts</div>
+          <div class="experience-period">Jul 2017 – May 2018</div>
+          <ul>
+            <li>Managed electrical installation and maintenance projects</li>
+            <li>Ensured compliance with safety standards and regulations</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Technical Skills -->
+      <h3 class="section-title">
+        <i class="fas fa-code"></i>
+        Technical Skills
+      </h3>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h5><i class="fas fa-laptop-code"></i> Programming Languages</h5>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C#</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h5><i class="fas fa-globe"></i> Web Technologies</h5>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">Django</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h5><i class="fas fa-brain"></i> AI/ML & Data Science</h5>
+          <div class="skill-tags">
+            <span class="skill-tag">TensorFlow</span>
+            <span class="skill-tag">Keras</span>
+            <span class="skill-tag">PyTorch</span>
+            <span class="skill-tag">Scikit-learn</span>
+            <span class="skill-tag">NLP</span>
+            <span class="skill-tag">OpenCV</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h5><i class="fas fa-microchip"></i> IoT & Hardware</h5>
+          <div class="skill-tags">
+            <span class="skill-tag">ESP32</span>
+            <span class="skill-tag">Arduino</span>
+            <span class="skill-tag">NodeMCU</span>
+            <span class="skill-tag">Raspberry Pi</span>
+            <span class="skill-tag">Sensors</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h5><i class="fas fa-database"></i> Database & Tools</h5>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Selenium</span>
+            <span class="skill-tag">Chart.js</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Key Projects -->
+      <h3 class="section-title">
+        <i class="fas fa-rocket"></i>
+        Key Projects
+      </h3>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-eye"></i> Blind Kit</div>
+        <div class="project-description">Assistive technology using OCR, facial recognition, and text-to-speech with OpenCV & Raspberry Pi</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-seedling"></i> Smart Agriculture with Solenoid</div>
+        <div class="project-description">ESP32-based automated irrigation system with Chart.js visualization & Flask backend</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-wheelchair"></i> Smart Wheelchair</div>
+        <div class="project-description">Multi-modal control system: web, voice, and eye-blink controlled wheelchair with health monitoring</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-shield-alt"></i> Animal Detection – YOLOv8 + ESP32-CAM</div>
+        <div class="project-description">Real-time intrusion detection system with SMS alerts using computer vision and IoT</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-heartbeat"></i> Non-Invasive Health Monitoring</div>
+        <div class="project-description">ML-based prediction system for PPG, temperature, hemoglobin, and cholesterol analysis</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-chart-line"></i> ECG-Based Health Tracker</div>
+        <div class="project-description">Python-Flask interface for real-time ECG data visualization from ADC + ESP32 module</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-school"></i> Edusphere Solutions – Admin Portal</div>
+        <div class="project-description">Comprehensive institute ERP system for admission, staff management, student records, exams, and attendance</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-dumbbell"></i> Fitness Tracker</div>
+        <div class="project-description">Social fitness application with daily logging, community posts, and interactive charts using Chart.js</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-user-md"></i> Smart Healthcare Portal</div>
+        <div class="project-description">Patient-doctor communication system with chat, appointment booking, and medical record management</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-newspaper"></i> Multi-Role News Platform</div>
+        <div class="project-description">Anonymous whistleblower-safe content management system with multi-user workflows</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-users"></i> ProConnect – LinkedIn-like Platform</div>
+        <div class="project-description">Professional networking platform for students, freelancers, and job opportunities</div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-title"><i class="fas fa-utensils"></i> Zomato Replica</div>
+        <div class="project-description">Restaurant listing and food ordering platform built with Flask & MySQL</div>
+      </div>
+
+      <a href="https://github.com/rajasekarrk96/projects" target="_blank" class="github-link">
+        <i class="fab fa-github"></i>
+        View All Projects on GitHub
+      </a>
+
+      <!-- Certifications -->
+      <h3 class="section-title">
+        <i class="fas fa-certificate"></i>
+        Certifications
+      </h3>
+      <div class="card">
+        <ul>
+          <li><i class="fas fa-check-circle" style="color: var(--success-color); margin-right: 0.5rem;"></i>Hardware Basics, Programming in C, C++</li>
+          <li><i class="fas fa-check-circle" style="color: var(--success-color); margin-right: 0.5rem;"></i>Machine Learning & Data Science</li>
+          <li><i class="fas fa-check-circle" style="color: var(--success-color); margin-right: 0.5rem;"></i>TensorFlow, PyTorch, NLP</li>
+          <li><i class="fas fa-check-circle" style="color: var(--success-color); margin-right: 0.5rem;"></i>Full Stack Web Development (Flask, Django)</li>
+        </ul>
+      </div>
+
+      <!-- Knowledge Areas -->
+      <h3 class="section-title">
+        <i class="fas fa-lightbulb"></i>
+        Knowledge Areas
+      </h3>
+      <div class="card">
+        <div class="skill-tags">
+          <span class="skill-tag">Artificial Intelligence</span>
+          <span class="skill-tag">Machine Learning</span>
+          <span class="skill-tag">Deep Learning</span>
+          <span class="skill-tag">IoT & Embedded Systems</span>
+          <span class="skill-tag">NLP & RAG Systems</span>
+          <span class="skill-tag">Data Science & Visualization</span>
+          <span class="skill-tag">Full Stack Development</span>
+        </div>
+      </div>
+
+      <!-- Achievements -->
+      <h3 class="section-title">
+        <i class="fas fa-trophy"></i>
+        Achievements & Activities
+      </h3>
+      <div class="card">
+        <ul>
+          <li><i class="fas fa-hands-helping" style="color: var(--success-color); margin-right: 0.5rem;"></i>NSS Volunteer</li>
+          <li><i class="fas fa-chalkboard-teacher" style="color: var(--success-color); margin-right: 0.5rem;"></i>Conducted technical workshops on Web Development, AI, and IoT</li>
+          <li><i class="fas fa-project-diagram" style="color: var(--success-color); margin-right: 0.5rem;"></i>Mentored 100+ projects across various technologies</li>
+          <li><i class="fas fa-om" style="color: var(--success-color); margin-right: 0.5rem;"></i>Certified Yoga Instructor at camps & NRHM centers</li>
+        </ul>
+      </div>
+
+      <!-- Personal Information -->
+      <h3 class="section-title">
+        <i class="fas fa-user"></i>
+        Personal Information
+      </h3>
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6">
+            <p><strong><i class="fas fa-birthday-cake"></i> Date of Birth:</strong> 19/08/1996</p>
+            <p><strong><i class="fas fa-male"></i> Father:</strong> V. Balaguru (Electrician)</p>
+          </div>
+          <div class="col-md-6">
+            <p><strong><i class="fas fa-female"></i> Mother:</strong> B. Vally (Anganwadi Teacher)</p>
+            <p><strong><i class="fas fa-map-marker-alt"></i> Address:</strong> No. 18, Vannara Street, Mudaliarpet, Puducherry – 605004</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5">
+        <p><strong>📍 Place:</strong> Puducherry</p>
+        <p><strong>🗓 Date:</strong> ____________</p>
+        <p><strong>Signature:</strong> (B. Rajasekar)</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 B. Rajasekar. All rights reserved.</p>
+    <p>Built with ❤️ for showcasing technical expertise and professional journey</p>
+  </footer>
+
+  <script>
+    function toggleProjects() {
+      const dropdown = document.getElementById('projects-dropdown');
+      const icon = document.getElementById('projects-icon');
+      const techDropdown = document.getElementById('tech-dropdown');
+      const techIcon = document.getElementById('tech-icon');
+      
+      // Close tech dropdown if open
+      if (techDropdown.classList.contains('show')) {
+        techDropdown.classList.remove('show');
+        techIcon.classList.remove('rotated');
+      }
+      
+      // Toggle projects dropdown
+      if (dropdown.classList.contains('show')) {
+        dropdown.classList.remove('show');
+        icon.classList.remove('rotated');
+      } else {
+        dropdown.classList.add('show');
+        icon.classList.add('rotated');
+        
+        // Smooth scroll to dropdown
+        setTimeout(() => {
+          dropdown.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 100);
+      }
+    }
+    
+    function toggleTechnologies() {
+      const dropdown = document.getElementById('tech-dropdown');
+      const icon = document.getElementById('tech-icon');
+      const projectsDropdown = document.getElementById('projects-dropdown');
+      const projectsIcon = document.getElementById('projects-icon');
+      
+      // Close projects dropdown if open
+      if (projectsDropdown.classList.contains('show')) {
+        projectsDropdown.classList.remove('show');
+        projectsIcon.classList.remove('rotated');
+      }
+      
+      // Toggle tech dropdown
+      if (dropdown.classList.contains('show')) {
+        dropdown.classList.remove('show');
+        icon.classList.remove('rotated');
+      } else {
+        dropdown.classList.add('show');
+        icon.classList.add('rotated');
+        
+        // Smooth scroll to dropdown
+        setTimeout(() => {
+          dropdown.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }, 100);
+      }
+    }
+    
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function(event) {
+      const projectsCard = event.target.closest('.stat-card[onclick="toggleProjects()"]');
+      const techCard = event.target.closest('.stat-card[onclick="toggleTechnologies()"]');
+      const projectsDropdown = document.getElementById('projects-dropdown');
+      const techDropdown = document.getElementById('tech-dropdown');
+      const projectsIcon = document.getElementById('projects-icon');
+      const techIcon = document.getElementById('tech-icon');
+      
+      if (!projectsCard && !projectsDropdown.contains(event.target)) {
+        projectsDropdown.classList.remove('show');
+        projectsIcon.classList.remove('rotated');
+      }
+      
+      if (!techCard && !techDropdown.contains(event.target)) {
+        techDropdown.classList.remove('show');
+        techIcon.classList.remove('rotated');
+      }
+    });
+  </script>
+
+</body>
+</html>
