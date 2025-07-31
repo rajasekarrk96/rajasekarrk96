@@ -18,38 +18,80 @@
 
 ## 📊 Interactive Professional Dashboard
 
-<!-- Colorful Dashboard with working clickable sections -->
-<table style="border: none;">
+<div align="center" style="margin: 30px 0;">
+
+<table width="100%" style="border: none; border-collapse: separate; border-spacing: 15px;">
 <tr>
-<td align="center" style="padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; margin: 10px;">
-<a href="#project-portfolio--innovations">
+<td align="center" width="50%">
+
 ![Projects](https://img.shields.io/badge/Projects_Completed-64+-brightgreen?style=for-the-badge&logo=rocket&logoColor=white)
-<br><strong style="color: white; font-size: 16px;">🚀 Innovative Solutions</strong>
-<br><sub style="color: #e0e0e0;">Click to explore project portfolio</sub>
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #2E8B57; margin: 10px 0;">🚀 Innovative Solutions</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>Project Portfolio Highlights:</strong><br>
+• Healthcare & Biomedical AI Solutions<br>
+• Smart Agriculture & Environmental Monitoring<br>
+• Safety & Transportation Systems<br>
+• Accessibility Technology Solutions<br>
+• Smart Home & IoT Automation<br>
+• Industrial Monitoring & Control Systems
+</div>
+</details>
+
 </td>
-<td align="center" style="padding: 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; margin: 10px;">
-<a href="#educational-impact--background">
+<td align="center" width="50%">
+
 ![Students](https://img.shields.io/badge/Students_Trained-1000+-blue?style=for-the-badge&logo=graduation-cap&logoColor=white)
-<br><strong style="color: white; font-size: 16px;">🎓 Educational Impact</strong>
-<br><sub style="color: #e0e0e0;">Click to view teaching achievements</sub>
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #1E90FF; margin: 10px 0;">🎓 Educational Impact</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>Teaching Achievements:</strong><br>
+• 1000+ Students trained in advanced technologies<br>
+• 100+ Live project mentorships completed<br>
+• Specialized in AI/ML, IoT, and Full Stack Development<br>
+• Hands-on project-based learning approach<br>
+• Real-world application focused curriculum
+</div>
+</details>
+
 </td>
 </tr>
 <tr>
-<td align="center" style="padding: 20px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; margin: 10px;">
-<a href="#professional-experience">
+<td align="center" width="50%">
+
 ![Experience](https://img.shields.io/badge/Experience-5%2B_Years-orange?style=for-the-badge&logo=briefcase&logoColor=white)
-<br><strong style="color: white; font-size: 16px;">💼 Professional Journey</strong>
-<br><sub style="color: #e0e0e0;">Click to explore career timeline</sub>
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #FF8C00; margin: 10px 0;">💼 Professional Journey</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>Career Timeline:</strong><br>
+• <strong>Partner, CFO & COO</strong> - Edusphere Solutions (Nov 2021 – Present)<br>
+• <strong>Business Development Manager</strong> - NIIT Puducherry (May 2018 – Nov 2020)<br>
+• <strong>Site Engineer</strong> - Sri Vasan Electrical Contracts (Jul 2017 – May 2018)<br>
+• Co-founded advanced IT training institute<br>
+• Strategic planning and operational management
+</div>
+</details>
+
 </td>
-<td align="center" style="padding: 20px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 15px; margin: 10px;">
-<a href="#technology-expertise--proficiency-gauges">
+<td align="center" width="50%">
+
 ![Technologies](https://img.shields.io/badge/Technologies-15%2B-red?style=for-the-badge&logo=code&logoColor=white)
-<br><strong style="color: white; font-size: 16px;">🔧 Tech Mastery</strong>
-<br><sub style="color: #e0e0e0;">Click to view technology proficiency</sub>
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #DC143C; margin: 10px 0;">🔧 Tech Mastery</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>Technology Stack:</strong><br>
+• <strong>Programming:</strong> Python, C/C++, JavaScript<br>
+• <strong>AI/ML:</strong> TensorFlow, PyTorch, OpenCV, Scikit-Learn<br>
+• <strong>Web Dev:</strong> Flask, Django, HTML5, CSS3, Bootstrap<br>
+• <strong>IoT:</strong> Arduino, ESP32, Raspberry Pi, Sensors<br>
+• <strong>Tools:</strong> MySQL, Git, Jupyter Notebooks
+</div>
+</details>
+
 </td>
 </tr>
 </table>
@@ -168,220 +210,125 @@
 
 ## 🔧 <a id="technology-mastery"></a>Technology Mastery
 
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; margin: 20px 0; box-shadow: 0 10px 40px rgba(0,0,0,0.15);">
+<div align="center" style="margin: 30px 0;">
 
 ### 💻 Programming Languages
 <details>
-<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view Programming Languages (3 technologies)</summary>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: #4B0082; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 8px;">🔽 Programming Languages (3 technologies)</summary>
 
-<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px; text-align: left;">
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🐍 Python</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #3776AB, #4B8BBE); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 40+ Projects • AI/ML, Web Development, Data Science</small>
-</div>
+**🐍 Python** - Expert Level (5+ years)<br>
+• 40+ Projects completed in AI/ML, Web Development, Data Science<br>
+• Specialized in TensorFlow, Flask, Django, Data Analysis<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">⚡ C/C++</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #00599C, #004B87); width: 90%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 25+ Projects • Embedded Systems, IoT, System Programming</small>
-</div>
+**⚡ C/C++** - Expert Level (5+ years)<br>
+• 25+ Projects in Embedded Systems, IoT, System Programming<br>
+• Arduino, ESP32, Microcontroller programming expertise<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🌐 JavaScript</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">85%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #F7DF1E, #F0DB4F); width: 85%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 20+ Projects • Frontend Development, Web Applications</small>
-</div>
+**🌐 JavaScript** - Advanced Level (5+ years)<br>
+• 20+ Projects in Frontend Development, Web Applications<br>
+• Modern ES6+, DOM manipulation, API integration
 
 </div>
 </details>
 
 ### 🤖 AI/ML & Data Science
 <details>
-<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view AI/ML Technologies (4 technologies)</summary>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: #8B008B; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 8px;">🔽 AI/ML & Data Science (4 technologies)</summary>
 
-<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px; text-align: left;">
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🧠 TensorFlow</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #FF6F00, #FF8F00); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 30+ Models • Deep Learning, Neural Networks, Computer Vision</small>
-</div>
+**🧠 TensorFlow** - Expert Level (5+ years)<br>
+• 30+ Models in Deep Learning, Neural Networks, Computer Vision<br>
+• Production-ready AI applications and model deployment<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🔥 PyTorch</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #EE4C2C, #FF6B47); width: 90%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 25+ Models • Research, Experimentation, Custom Models</small>
-</div>
+**🔥 PyTorch** - Expert Level (5+ years)<br>
+• 25+ Models for Research, Experimentation, Custom Models<br>
+• Advanced neural network architectures and optimization<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">👁️ OpenCV</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #27338e, #3d47a3); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 35+ Projects • Computer Vision, Image Processing, Real-time Detection</small>
-</div>
+**👁️ OpenCV** - Expert Level (5+ years)<br>
+• 35+ Projects in Computer Vision, Image Processing, Real-time Detection<br>
+• Object detection, facial recognition, video analysis<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">📊 Scikit-Learn</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #F7931E, #FFB347); width: 90%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 40+ Models • Machine Learning, Data Analysis, Predictive Modeling</small>
-</div>
+**📊 Scikit-Learn** - Expert Level (5+ years)<br>
+• 40+ Models in Machine Learning, Data Analysis, Predictive Modeling<br>
+• Classification, regression, clustering, and feature engineering
 
 </div>
 </details>
 
 ### 🌐 Web Development
 <details>
-<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view Web Technologies (5 technologies)</summary>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: #1E90FF; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 8px;">🔽 Web Development (5 technologies)</summary>
 
-<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px; text-align: left;">
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🌶️ Flask</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #000000, #333333); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 25+ Applications • REST APIs, Web Services, Microservices</small>
-</div>
+**🌶️ Flask** - Expert Level (5+ years)<br>
+• 25+ Applications in REST APIs, Web Services, Microservices<br>
+• Lightweight framework for rapid development and deployment<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🎸 Django</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">85%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #092E20, #0F4C3A); width: 85%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 15+ Applications • Full-stack Development, Admin Panels</small>
-</div>
+**🎸 Django** - Advanced Level (5+ years)<br>
+• 15+ Applications in Full-stack Development, Admin Panels<br>
+• Robust web framework with ORM and authentication systems<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🏗️ HTML5</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">98%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #E34F26, #F16529); width: 98%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 50+ Websites • Semantic Markup, Responsive Design</small>
-</div>
+**🏗️ HTML5** - Expert Level (5+ years)<br>
+• 50+ Websites with Semantic Markup, Responsive Design<br>
+• Modern web standards and accessibility best practices<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🎨 CSS3</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #1572B6, #33A9DC); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 50+ Websites • Animations, Grid, Flexbox, Modern Layouts</small>
-</div>
+**🎨 CSS3** - Expert Level (5+ years)<br>
+• 50+ Websites with Animations, Grid, Flexbox, Modern Layouts<br>
+• Advanced styling, responsive design, and visual effects<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🅱️ Bootstrap</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #563D7C, #7952B3); width: 90%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 30+ Projects • Rapid Prototyping, Responsive Frameworks</small>
-</div>
+**🅱️ Bootstrap** - Expert Level (5+ years)<br>
+• 30+ Projects in Rapid Prototyping, Responsive Frameworks<br>
+• Component-based design and mobile-first development
 
 </div>
 </details>
 
 ### 🔌 IoT & Embedded Systems
 <details>
-<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view IoT Technologies (4 technologies)</summary>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: #FF8C00; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 8px;">🔽 IoT & Embedded Systems (4 technologies)</summary>
 
-<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px; text-align: left;">
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🤖 Arduino</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">98%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #00979D, #00B4B8); width: 98%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 45+ Projects • Microcontroller Programming, Sensor Integration</small>
-</div>
+**🤖 Arduino** - Expert Level (5+ years)<br>
+• 45+ Projects in Microcontroller Programming, Sensor Integration<br>
+• Hardware prototyping and embedded system development<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">📡 ESP32</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #000000, #333333); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 30+ Projects • WiFi/Bluetooth, IoT Connectivity, Real-time Systems</small>
-</div>
+**📡 ESP32** - Expert Level (5+ years)<br>
+• 30+ Projects in WiFi/Bluetooth, IoT Connectivity, Real-time Systems<br>
+• Wireless communication and edge computing solutions<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🍓 Raspberry Pi</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #A22846, #C73E1D); width: 90%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 25+ Projects • Linux Systems, Computer Vision, Edge Computing</small>
-</div>
+**🍓 Raspberry Pi** - Expert Level (5+ years)<br>
+• 25+ Projects in Linux Systems, Computer Vision, Edge Computing<br>
+• Single-board computer applications and automation<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🔧 Sensors & Hardware</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #FF6B6B, #FF8E8E); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 40+ Integrations • Environmental, Motion, Vision, Communication Sensors</small>
-</div>
+**🔧 Sensors & Hardware** - Expert Level (5+ years)<br>
+• 40+ Integrations with Environmental, Motion, Vision, Communication Sensors<br>
+• Hardware interfacing and data acquisition systems
 
 </div>
 </details>
 
 ### 🗄️ Database & Tools
 <details>
-<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view Database & Tools (3 technologies)</summary>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: #DC143C; margin: 15px 0; padding: 10px; background: #f8f9fa; border-radius: 8px;">🔽 Database & Tools (3 technologies)</summary>
 
-<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+<div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin-top: 15px; text-align: left;">
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🐬 MySQL</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #00758F, #0087A8); width: 90%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 35+ Databases • Relational Design, Query Optimization, Data Management</small>
-</div>
+**🐬 MySQL** - Expert Level (5+ years)<br>
+• 35+ Databases with Relational Design, Query Optimization, Data Management<br>
+• Database administration and performance tuning<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">🌿 Git</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #F05032, #F1683A); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 60+ Repositories • Version Control, Collaboration, CI/CD Integration</small>
-</div>
+**🌿 Git** - Expert Level (5+ years)<br>
+• 60+ Repositories with Version Control, Collaboration, CI/CD Integration<br>
+• Advanced branching strategies and team collaboration<br><br>
 
-<div style="margin: 15px 0;">
-<span style="color: white; font-weight: bold; font-size: 16px;">📓 Jupyter</span>
-<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
-<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
-  <div style="background: linear-gradient(90deg, #F37626, #FF9500); width: 95%; height: 100%; border-radius: 10px;"></div>
-</div>
-<small style="color: #e0e0e0;">5+ years • 100+ Notebooks • Data Analysis, Prototyping, Interactive Computing</small>
-</div>
+**📓 Jupyter** - Expert Level (5+ years)<br>
+• 100+ Notebooks for Data Analysis, Prototyping, Interactive Computing<br>
+• Scientific computing and data visualization workflows
 
 </div>
 </details>
