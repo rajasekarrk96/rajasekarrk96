@@ -18,19 +18,19 @@
 
 ## 📊 Interactive Professional Dashboard
 
-<!-- Colorful Dashboard with clickable sections -->
+<!-- Colorful Dashboard with working clickable sections -->
 <table style="border: none;">
 <tr>
 <td align="center" style="padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; margin: 10px;">
-<a href="#featured-projects">
-<img src="https://img.shields.io/badge/Projects_Completed-64+-brightgreen?style=for-the-badge&logo=rocket&logoColor=white"/>
+<a href="#project-portfolio--innovations">
+![Projects](https://img.shields.io/badge/Projects_Completed-64+-brightgreen?style=for-the-badge&logo=rocket&logoColor=white)
 <br><strong style="color: white; font-size: 16px;">🚀 Innovative Solutions</strong>
 <br><sub style="color: #e0e0e0;">Click to explore project portfolio</sub>
 </a>
 </td>
 <td align="center" style="padding: 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; margin: 10px;">
-<a href="#educational-impact">
-<img src="https://img.shields.io/badge/Students_Trained-1000+-blue?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
+<a href="#educational-impact--background">
+![Students](https://img.shields.io/badge/Students_Trained-1000+-blue?style=for-the-badge&logo=graduation-cap&logoColor=white)
 <br><strong style="color: white; font-size: 16px;">🎓 Educational Impact</strong>
 <br><sub style="color: #e0e0e0;">Click to view teaching achievements</sub>
 </a>
@@ -39,14 +39,14 @@
 <tr>
 <td align="center" style="padding: 20px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; margin: 10px;">
 <a href="#professional-experience">
-<img src="https://img.shields.io/badge/Experience-5%2B_Years-orange?style=for-the-badge&logo=briefcase&logoColor=white"/>
+![Experience](https://img.shields.io/badge/Experience-5%2B_Years-orange?style=for-the-badge&logo=briefcase&logoColor=white)
 <br><strong style="color: white; font-size: 16px;">💼 Professional Journey</strong>
 <br><sub style="color: #e0e0e0;">Click to explore career timeline</sub>
 </a>
 </td>
 <td align="center" style="padding: 20px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 15px; margin: 10px;">
 <a href="#technology-expertise--proficiency-gauges">
-<img src="https://img.shields.io/badge/Technologies-15%2B-red?style=for-the-badge&logo=code&logoColor=white"/>
+![Technologies](https://img.shields.io/badge/Technologies-15%2B-red?style=for-the-badge&logo=code&logoColor=white)
 <br><strong style="color: white; font-size: 16px;">🔧 Tech Mastery</strong>
 <br><sub style="color: #e0e0e0;">Click to view technology proficiency</sub>
 </a>
@@ -174,21 +174,21 @@
 <table>
 <tr>
 <td align="center" width="200" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 5px;">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 <br>
-<img src="https://progress-bar.dev/95/?scale=100&title=Expert&width=150&color=3776AB"/>
+![Progress](https://progress-bar.dev/95/?scale=100&title=Expert&width=150&color=3776AB)
 <br><sub style="color: white; font-weight: bold;">5+ years | 30+ projects</sub>
 </td>
 <td align="center" width="200" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 20px; margin: 5px;">
-<img src="https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=c&logoColor=white"/>
+![C++](https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=c&logoColor=white)
 <br>
-<img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=150&color=00599C"/>
+![Progress](https://progress-bar.dev/90/?scale=100&title=Expert&width=150&color=00599C)
 <br><sub style="color: white; font-weight: bold;">5+ years | 25+ projects</sub>
 </td>
 <td align="center" width="200" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 20px; margin: 5px;">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 <br>
-<img src="https://progress-bar.dev/85/?scale=100&title=Advanced&width=150&color=F7DF1E"/>
+![Progress](https://progress-bar.dev/85/?scale=100&title=Advanced&width=150&color=F7DF1E)
 <br><sub style="color: white; font-weight: bold;">5+ years | 15+ projects</sub>
 </td>
 </tr>
@@ -198,27 +198,27 @@
 <table>
 <tr>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 <br>
-<img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=120&color=FF6F00"/>
+![Progress](https://progress-bar.dev/90/?scale=100&title=Expert&width=120&color=FF6F00)
 <br><sub>12+ AI projects</sub>
 </td>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 <br>
-<img src="https://progress-bar.dev/85/?scale=100&title=Advanced&width=120&color=EE4C2C"/>
+![Progress](https://progress-bar.dev/85/?scale=100&title=Advanced&width=120&color=EE4C2C)
 <br><sub>8+ ML projects</sub>
 </td>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white"/>
+![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
 <br>
-<img src="https://progress-bar.dev/88/?scale=100&title=Expert&width=120&color=27338e"/>
+![Progress](https://progress-bar.dev/88/?scale=100&title=Expert&width=120&color=27338e)
 <br><sub>10+ CV projects</sub>
 </td>
 <td align="center" width="150">
-<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
+![Scikit](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 <br>
-<img src="https://progress-bar.dev/92/?scale=100&title=Expert&width=120&color=F7931E"/>
+![Progress](https://progress-bar.dev/92/?scale=100&title=Expert&width=120&color=F7931E)
 <br><sub>15+ ML models</sub>
 </td>
 </tr>
@@ -296,35 +296,35 @@
 <table>
 <tr>
 <td align="center">
-<a href="#healthcare-projects">
-<img src="https://img.shields.io/badge/Healthcare_&_Biomedical-8_Projects-red?style=for-the-badge&logo=heart&logoColor=white"/>
+<a href="#healthcare--biomedical-projects">
+![Healthcare](https://img.shields.io/badge/Healthcare_&_Biomedical-8_Projects-red?style=for-the-badge&logo=heart&logoColor=white)
 </a>
 </td>
 <td align="center">
-<a href="#agriculture-projects">
-<img src="https://img.shields.io/badge/Agriculture_&_Environment-7_Projects-green?style=for-the-badge&logo=leaf&logoColor=white"/>
+<a href="#agriculture--environmental-projects">
+![Agriculture](https://img.shields.io/badge/Agriculture_&_Environment-7_Projects-green?style=for-the-badge&logo=leaf&logoColor=white)
 </a>
 </td>
 <td align="center">
-<a href="#safety-projects">
-<img src="https://img.shields.io/badge/Safety_&_Transportation-6_Projects-orange?style=for-the-badge&logo=shield&logoColor=white"/>
+<a href="#safety--transportation">
+![Safety](https://img.shields.io/badge/Safety_&_Transportation-6_Projects-orange?style=for-the-badge&logo=shield&logoColor=white)
 </a>
 </td>
 </tr>
 <tr>
 <td align="center">
-<a href="#accessibility-projects">
-<img src="https://img.shields.io/badge/Accessibility_Tech-5_Projects-blue?style=for-the-badge&logo=accessibility&logoColor=white"/>
+<a href="#accessibility--assistive-technology">
+![Accessibility](https://img.shields.io/badge/Accessibility_Tech-5_Projects-blue?style=for-the-badge&logo=accessibility&logoColor=white)
 </a>
 </td>
 <td align="center">
-<a href="#iot-projects">
-<img src="https://img.shields.io/badge/Smart_Home_&_IoT-6_Projects-purple?style=for-the-badge&logo=home&logoColor=white"/>
+<a href="#smart-home--iot-projects">
+![IoT](https://img.shields.io/badge/Smart_Home_&_IoT-6_Projects-purple?style=for-the-badge&logo=home&logoColor=white)
 </a>
 </td>
 <td align="center">
-<a href="#industrial-projects">
-<img src="https://img.shields.io/badge/Industrial_&_Monitoring-6_Projects-yellow?style=for-the-badge&logo=industry&logoColor=white"/>
+<a href="#industrial--monitoring-projects">
+![Industrial](https://img.shields.io/badge/Industrial_&_Monitoring-6_Projects-yellow?style=for-the-badge&logo=industry&logoColor=white)
 </a>
 </td>
 </tr>
