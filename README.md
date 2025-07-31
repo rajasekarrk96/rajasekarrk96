@@ -335,12 +335,8 @@
 
 </div>
 <tr style="background-color: #f8f9fa;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/85/?scale=100&title=Advanced&width=200&color=F7DF1E" alt="85%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">JavaScript</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #F7DF1E;">85%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">5+ years | 15+ projects</td>
 </tr>
 </tbody>
@@ -357,39 +353,23 @@
 </thead>
 <tbody>
 <tr style="background-color: #f8f9fa;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=FF6F00" alt="90%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">TensorFlow</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #FF6F00;">90%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 12+ AI projects</td>
 </tr>
 <tr style="background-color: #ffffff;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/85/?scale=100&title=Advanced&width=200&color=EE4C2C" alt="85%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">PyTorch</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #EE4C2C;">85%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Advanced | 8+ ML projects</td>
 </tr>
 <tr style="background-color: #f8f9fa;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white" alt="OpenCV"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/88/?scale=100&title=Expert&width=200&color=27338e" alt="88%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">OpenCV</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #27338e;">88%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 10+ CV projects</td>
 </tr>
 <tr style="background-color: #ffffff;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/92/?scale=100&title=Expert&width=200&color=F7931E" alt="92%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Scikit-Learn</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #F7931E;">92%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 15+ ML models</td>
 </tr>
 </tbody>
@@ -415,30 +395,18 @@
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 20+ web apps</td>
 </tr>
 <tr style="background-color: #ffffff;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/85/?scale=100&title=Advanced&width=200&color=092E20" alt="85%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Django</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #092E20;">85%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Advanced | 10+ applications</td>
 </tr>
 <tr style="background-color: #f8f9fa;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/HTML5/CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/95/?scale=100&title=Expert&width=200&color=E34F26" alt="95%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">HTML5</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #E34F26;">95%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 50+ interfaces</td>
 </tr>
 <tr style="background-color: #ffffff;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/88/?scale=100&title=Expert&width=200&color=563D7C" alt="88%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Bootstrap</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #563D7C;">88%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 30+ responsive sites</td>
 </tr>
 </tbody>
