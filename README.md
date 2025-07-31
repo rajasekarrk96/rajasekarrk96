@@ -1,7 +1,7 @@
 <div align="center">
 
-# 🚀 B. Rajasekar
-### AI/ML Engineer • IoT Specialist • Full Stack Developer
+<!-- Header with gradient background -->
+<img width="100%" height="300" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=300&section=header&text=B.%20Rajasekar&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=AI/ML%20Engineer%20%E2%80%A2%20IoT%20Specialist%20%E2%80%A2%20Full%20Stack%20Developer&descAlignY=55&descSize=20"/>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Welcome+to+my+GitHub+Profile!;64%2B+Innovative+Projects+Completed;1000%2B+Students+Trained;AI%2FML+%7C+IoT+%7C+Full+Stack+Developer;Passionate+about+Technology+%26+Innovation" alt="Typing SVG" />
 
@@ -16,25 +16,40 @@
 
 <div align="center">
 
-## 📊 Professional Dashboard
+## 📊 Interactive Professional Dashboard
 
-<table>
+<!-- Colorful Dashboard with clickable sections -->
+<table style="border: none;">
 <tr>
-<td align="center">
-<img src="https://img.shields.io/badge/Projects_Completed-64+-brightgreen?style=for-the-badge&logo=checkmarx&logoColor=white"/>
-<br><strong>Innovative Solutions</strong>
+<td align="center" style="padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; margin: 10px;">
+<a href="#featured-projects">
+<img src="https://img.shields.io/badge/Projects_Completed-64+-brightgreen?style=for-the-badge&logo=rocket&logoColor=white"/>
+<br><strong style="color: white; font-size: 16px;">🚀 Innovative Solutions</strong>
+<br><sub style="color: #e0e0e0;">Click to explore project portfolio</sub>
+</a>
 </td>
-<td align="center">
-<img src="https://img.shields.io/badge/Students_Trained-1000+-blue?style=for-the-badge&logo=academia&logoColor=white"/>
-<br><strong>Educational Impact</strong>
+<td align="center" style="padding: 20px; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; margin: 10px;">
+<a href="#educational-impact">
+<img src="https://img.shields.io/badge/Students_Trained-1000+-blue?style=for-the-badge&logo=graduation-cap&logoColor=white"/>
+<br><strong style="color: white; font-size: 16px;">🎓 Educational Impact</strong>
+<br><sub style="color: #e0e0e0;">Click to view teaching achievements</sub>
+</a>
 </td>
-<td align="center">
-<img src="https://img.shields.io/badge/Experience-5%2B_Years-orange?style=for-the-badge&logo=calendar&logoColor=white"/>
-<br><strong>Professional Journey</strong>
+</tr>
+<tr>
+<td align="center" style="padding: 20px; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; margin: 10px;">
+<a href="#professional-experience">
+<img src="https://img.shields.io/badge/Experience-5%2B_Years-orange?style=for-the-badge&logo=briefcase&logoColor=white"/>
+<br><strong style="color: white; font-size: 16px;">💼 Professional Journey</strong>
+<br><sub style="color: #e0e0e0;">Click to explore career timeline</sub>
+</a>
 </td>
-<td align="center">
-<img src="https://img.shields.io/badge/Technologies-15%2B-red?style=for-the-badge&logo=tech&logoColor=white"/>
-<br><strong>Tech Mastery</strong>
+<td align="center" style="padding: 20px; background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); border-radius: 15px; margin: 10px;">
+<a href="#technology-expertise--proficiency-gauges">
+<img src="https://img.shields.io/badge/Technologies-15%2B-red?style=for-the-badge&logo=code&logoColor=white"/>
+<br><strong style="color: white; font-size: 16px;">🔧 Tech Mastery</strong>
+<br><sub style="color: #e0e0e0;">Click to view technology proficiency</sub>
+</a>
 </td>
 </tr>
 </table>
@@ -42,6 +57,38 @@
 </div>
 
 ---
+
+## 🎓 <a id="educational-impact"></a>Educational Impact & Background
+
+<div align="center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 20px; padding: 30px; margin: 20px;">
+
+### 👨‍🏫 Teaching Achievements
+<table>
+<tr>
+<td align="center" width="25%" style="background: rgba(255,255,255,0.1); border-radius: 15px; padding: 15px; margin: 10px;">
+<h3 style="color: #FFD700;">1000+</h3>
+<p style="color: white;"><strong>Students Trained</strong></p>
+<sub style="color: #e0e0e0;">AI, IoT, Data Science, Full Stack</sub>
+</td>
+<td align="center" width="25%" style="background: rgba(255,255,255,0.1); border-radius: 15px; padding: 15px; margin: 10px;">
+<h3 style="color: #FFD700;">100+</h3>
+<p style="color: white;"><strong>Projects Mentored</strong></p>
+<sub style="color: #e0e0e0;">Live project guidance & support</sub>
+</td>
+<td align="center" width="25%" style="background: rgba(255,255,255,0.1); border-radius: 15px; padding: 15px; margin: 10px;">
+<h3 style="color: #FFD700;">6+</h3>
+<p style="color: white;"><strong>Years Teaching</strong></p>
+<sub style="color: #e0e0e0;">Advanced IT training institute</sub>
+</td>
+<td align="center" width="25%" style="background: rgba(255,255,255,0.1); border-radius: 15px; padding: 15px; margin: 10px;">
+<h3 style="color: #FFD700;">15+</h3>
+<p style="color: white;"><strong>Technologies Taught</strong></p>
+<sub style="color: #e0e0e0;">Comprehensive tech curriculum</sub>
+</td>
+</tr>
+</table>
+
+</div>
 
 ## 🎓 Educational Background
 
@@ -54,27 +101,68 @@
 
 ---
 
-## 💼 Professional Experience
+## 💼 <a id="professional-experience"></a>Professional Experience
+
+<div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 20px; padding: 30px; margin: 20px;">
 
 ### 🏢 **Partner, CFO & COO** - Edusphere Solutions
-*Nov 2021 – Present*
+<div style="background: rgba(255,255,255,0.2); border-radius: 15px; padding: 20px; margin: 15px;">
+<p style="color: white; font-weight: bold; font-size: 18px;">Nov 2021 – Present</p>
 
-- 🚀 Co-founded and currently manage Edusphere Solutions, an advanced IT training institute
-- 🎯 Focused on AI, IoT, Data Science, Full Stack Development, and Embedded Systems
-- 📚 Designed hands-on project-based learning modules aligned with real-world applications
-- 👨‍🏫 Mentored 100+ students on live projects and trained 1000+ students in the last 6 years
+<table>
+<tr>
+<td width="50%" style="color: white;">
+
+**🚀 Leadership & Innovation:**
+- Co-founded advanced IT training institute
+- Strategic planning and operational management
+- Technology curriculum development
+
+**🎯 Core Focus Areas:**
+- AI & Machine Learning
+- IoT & Embedded Systems  
+- Data Science & Analytics
+- Full Stack Development
+
+</td>
+<td width="50%" style="color: white;">
+
+**📚 Educational Excellence:**
+- Designed hands-on project-based learning
+- Real-world application alignment
+- Industry-relevant skill development
+
+**👨‍🏫 Impact & Achievements:**
+- **100+ students** mentored on live projects
+- **1000+ students** trained over 6 years
+- **64+ innovative projects** completed
+
+</td>
+</tr>
+</table>
+</div>
 
 ### 📈 **Business Development Manager** - NIIT Puducherry
-*May 2018 – Nov 2020*
+<div style="background: rgba(255,255,255,0.2); border-radius: 15px; padding: 20px; margin: 15px;">
+<p style="color: white; font-weight: bold; font-size: 18px;">May 2018 – Nov 2020</p>
 
-- 🤖 Integrated AI/ML technologies into institutional training modules
-- 🤝 Developed strategic partnerships and business growth initiatives
+- 🤖 **Technology Integration:** AI/ML technologies into institutional training modules
+- 🤝 **Strategic Partnerships:** Developed business growth initiatives and collaborations
+- 📊 **Business Growth:** Expanded market reach and student enrollment
+- 🎓 **Training Excellence:** Enhanced educational delivery and student outcomes
+</div>
 
 ### ⚡ **Site Engineer** - Sri Vasan Electrical Contracts
-*Jul 2017 – May 2018*
+<div style="background: rgba(255,255,255,0.2); border-radius: 15px; padding: 20px; margin: 15px;">
+<p style="color: white; font-weight: bold; font-size: 18px;">Jul 2017 – May 2018</p>
 
-- 🔧 Managed electrical installation and maintenance projects
-- ✅ Ensured compliance with safety standards and regulations
+- 🔧 **Project Management:** Electrical installation and maintenance projects
+- ✅ **Safety Compliance:** Ensured adherence to safety standards and regulations
+- ⚡ **Technical Expertise:** Power systems design and implementation
+- 🏗️ **Site Coordination:** Multi-team project coordination and execution
+</div>
+
+</div>
 
 ---
 
@@ -85,23 +173,23 @@
 ### 🎯 Core Programming Languages
 <table>
 <tr>
-<td align="center" width="200">
+<td align="center" width="200" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 5px;">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 <br>
 <img src="https://progress-bar.dev/95/?scale=100&title=Expert&width=150&color=3776AB"/>
-<br><sub>5+ years | 30+ projects</sub>
+<br><sub style="color: white; font-weight: bold;">5+ years | 30+ projects</sub>
 </td>
-<td align="center" width="200">
+<td align="center" width="200" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 20px; margin: 5px;">
 <img src="https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=c&logoColor=white"/>
 <br>
 <img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=150&color=00599C"/>
-<br><sub>4+ years | 25+ projects</sub>
+<br><sub style="color: white; font-weight: bold;">5+ years | 25+ projects</sub>
 </td>
-<td align="center" width="200">
+<td align="center" width="200" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 20px; margin: 5px;">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
 <br>
 <img src="https://progress-bar.dev/85/?scale=100&title=Advanced&width=150&color=F7DF1E"/>
-<br><sub>3+ years | 15+ projects</sub>
+<br><sub style="color: white; font-weight: bold;">5+ years | 15+ projects</sub>
 </td>
 </tr>
 </table>
@@ -487,7 +575,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/rajasekarrk96)
 
 📍 **Location:** Puducherry, India  
-📧 **Email:** rajasekar.rk96@gmail.com | universalpeaceyoga@gmail.com  
+📧 **Email:** rajasekar.rk96@gmail.com  
 📱 **Phone:** +91 8807796595
 
 </div>
