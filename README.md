@@ -166,123 +166,52 @@
 
 ---
 
-## 🛠️ Technology Expertise & Proficiency Gauges
+## 🛠️ Technology Expertise & Proficiency
 
 <div align="center">
 
-### 🎯 Core Programming Languages
-<table>
-<tr>
-<td align="center" width="200" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; padding: 20px; margin: 5px;">
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-<br>
-![Progress](https://progress-bar.dev/95/?scale=100&title=Expert&width=150&color=3776AB)
-<br><sub style="color: white; font-weight: bold;">5+ years | 30+ projects</sub>
-</td>
-<td align="center" width="200" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 15px; padding: 20px; margin: 5px;">
-![C++](https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=c&logoColor=white)
-<br>
-![Progress](https://progress-bar.dev/90/?scale=100&title=Expert&width=150&color=00599C)
-<br><sub style="color: white; font-weight: bold;">5+ years | 25+ projects</sub>
-</td>
-<td align="center" width="200" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); border-radius: 15px; padding: 20px; margin: 5px;">
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-<br>
-![Progress](https://progress-bar.dev/85/?scale=100&title=Advanced&width=150&color=F7DF1E)
-<br><sub style="color: white; font-weight: bold;">5+ years | 15+ projects</sub>
-</td>
-</tr>
-</table>
+### 🐍 Programming Languages
 
-### 🤖 AI/ML & Data Science Stack
-<table>
-<tr>
-<td align="center" width="150">
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-<br>
-![Progress](https://progress-bar.dev/90/?scale=100&title=Expert&width=120&color=FF6F00)
-<br><sub>12+ AI projects</sub>
-</td>
-<td align="center" width="150">
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-<br>
-![Progress](https://progress-bar.dev/85/?scale=100&title=Advanced&width=120&color=EE4C2C)
-<br><sub>8+ ML projects</sub>
-</td>
-<td align="center" width="150">
-![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white)
-<br>
-![Progress](https://progress-bar.dev/88/?scale=100&title=Expert&width=120&color=27338e)
-<br><sub>10+ CV projects</sub>
-</td>
-<td align="center" width="150">
-![Scikit](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-<br>
-![Progress](https://progress-bar.dev/92/?scale=100&title=Expert&width=120&color=F7931E)
-<br><sub>15+ ML models</sub>
-</td>
-</tr>
-</table>
+| **Technology** | **Proficiency** | **Experience** |
+|:---:|:---:|:---:|
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) | ![95%](https://progress-bar.dev/95/?scale=100&title=Expert&width=200&color=3776AB) | **5+ years \| 30+ projects** |
+| ![C++](https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=c&logoColor=white) | ![90%](https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=00599C) | **5+ years \| 25+ projects** |
+| ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | ![85%](https://progress-bar.dev/85/?scale=100&title=Advanced&width=200&color=F7DF1E) | **5+ years \| 15+ projects** |
 
-### 🌐 Web Development Technologies
-<table>
-<tr>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=120&color=000000"/>
-<br><sub>20+ web apps</sub>
-</td>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/85/?scale=100&title=Advanced&width=120&color=092E20"/>
-<br><sub>10+ applications</sub>
-</td>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/HTML5/CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/95/?scale=100&title=Expert&width=120&color=E34F26"/>
-<br><sub>50+ interfaces</sub>
-</td>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/88/?scale=100&title=Expert&width=120&color=563D7C"/>
-<br><sub>30+ responsive sites</sub>
-</td>
-</tr>
-</table>
+### 🤖 AI/ML & Data Science
+
+| **Technology** | **Proficiency** | **Experience** |
+|:---:|:---:|:---:|
+| ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) | ![90%](https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=FF6F00) | **Expert \| 12+ AI projects** |
+| ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) | ![85%](https://progress-bar.dev/85/?scale=100&title=Advanced&width=200&color=EE4C2C) | **Advanced \| 8+ ML projects** |
+| ![OpenCV](https://img.shields.io/badge/OpenCV-27338e?style=for-the-badge&logo=OpenCV&logoColor=white) | ![88%](https://progress-bar.dev/88/?scale=100&title=Expert&width=200&color=27338e) | **Expert \| 10+ CV projects** |
+| ![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white) | ![92%](https://progress-bar.dev/92/?scale=100&title=Expert&width=200&color=F7931E) | **Expert \| 15+ ML models** |
+
+### 🌐 Web Development
+
+| **Technology** | **Proficiency** | **Experience** |
+|:---:|:---:|:---:|
+| ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) | ![90%](https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=000000) | **Expert \| 20+ web apps** |
+| ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white) | ![85%](https://progress-bar.dev/85/?scale=100&title=Advanced&width=200&color=092E20) | **Advanced \| 10+ applications** |
+| ![HTML5](https://img.shields.io/badge/HTML5/CSS3-E34F26?style=for-the-badge&logo=html5&logoColor=white) | ![95%](https://progress-bar.dev/95/?scale=100&title=Expert&width=200&color=E34F26) | **Expert \| 50+ interfaces** |
+| ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) | ![88%](https://progress-bar.dev/88/?scale=100&title=Expert&width=200&color=563D7C) | **Expert \| 30+ responsive sites** |
 
 ### ⚡ IoT & Embedded Systems
-<table>
-<tr>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/95/?scale=100&title=Expert&width=120&color=00979D"/>
-<br><sub>40+ IoT projects</sub>
-</td>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/92/?scale=100&title=Expert&width=120&color=000000"/>
-<br><sub>25+ smart devices</sub>
-</td>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/88/?scale=100&title=Expert&width=120&color=A22846"/>
-<br><sub>15+ edge computing</sub>
-</td>
-<td align="center" width="150">
-<img src="https://img.shields.io/badge/Sensors-FF6B35?style=for-the-badge&logo=iot&logoColor=white"/>
-<br>
-<img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=120&color=FF6B35"/>
-<br><sub>50+ sensor integrations</sub>
-</td>
-</tr>
-</table>
+
+| **Technology** | **Proficiency** | **Experience** |
+|:---:|:---:|:---:|
+| ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) | ![95%](https://progress-bar.dev/95/?scale=100&title=Expert&width=200&color=00979D) | **Expert \| 40+ IoT projects** |
+| ![ESP32](https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white) | ![92%](https://progress-bar.dev/92/?scale=100&title=Expert&width=200&color=000000) | **Expert \| 25+ smart devices** |
+| ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white) | ![88%](https://progress-bar.dev/88/?scale=100&title=Expert&width=200&color=A22846) | **Expert \| 15+ edge computing** |
+| ![Sensors](https://img.shields.io/badge/Sensors-FF6B35?style=for-the-badge&logo=iot&logoColor=white) | ![90%](https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=FF6B35) | **Expert \| 50+ integrations** |
+
+### 🗄️ Database & Tools
+
+| **Technology** | **Proficiency** | **Experience** |
+|:---:|:---:|:---:|
+| ![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white) | ![85%](https://progress-bar.dev/85/?scale=100&title=Advanced&width=200&color=00000F) | **Advanced \| Database design** |
+| ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) | ![90%](https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=F05032) | **Expert \| Version control** |
+| ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) | ![88%](https://progress-bar.dev/88/?scale=100&title=Expert&width=200&color=F37626) | **Expert \| Data analysis** |
 
 </div>
 
