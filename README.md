@@ -166,38 +166,227 @@
 
 ---
 
-## 🛠️ Technology Expertise & Proficiency
+## 🔧 <a id="technology-mastery"></a>Technology Mastery
 
-<div align="center">
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 15px; margin: 20px 0; box-shadow: 0 10px 40px rgba(0,0,0,0.15);">
 
-<h3>🐍 Programming Languages</h3>
-<table style="border-collapse: collapse; margin: 25px 0; font-size: 0.9em; min-width: 600px; border-radius: 10px; overflow: hidden; box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);">
-<thead>
-<tr style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center;">
-<th style="padding: 15px; border: none;">Technology</th>
-<th style="padding: 15px; border: none;">Proficiency</th>
-<th style="padding: 15px; border: none;">Experience</th>
-</tr>
-</thead>
-<tbody>
-<tr style="background-color: #f8f9fa;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/95/?scale=100&title=Expert&width=200&color=3776AB" alt="95%"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">5+ years | 30+ projects</td>
-</tr>
-<tr style="background-color: #ffffff;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/C/C++-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C++"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=00599C" alt="90%"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">5+ years | 25+ projects</td>
-</tr>
+### 💻 Programming Languages
+<details>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view Programming Languages (3 technologies)</summary>
+
+<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🐍 Python</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #3776AB, #4B8BBE); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 40+ Projects • AI/ML, Web Development, Data Science</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">⚡ C/C++</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #00599C, #004B87); width: 90%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 25+ Projects • Embedded Systems, IoT, System Programming</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🌐 JavaScript</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">85%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #F7DF1E, #F0DB4F); width: 85%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 20+ Projects • Frontend Development, Web Applications</small>
+</div>
+
+</div>
+</details>
+
+### 🤖 AI/ML & Data Science
+<details>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view AI/ML Technologies (4 technologies)</summary>
+
+<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🧠 TensorFlow</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #FF6F00, #FF8F00); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 30+ Models • Deep Learning, Neural Networks, Computer Vision</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🔥 PyTorch</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #EE4C2C, #FF6B47); width: 90%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 25+ Models • Research, Experimentation, Custom Models</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">👁️ OpenCV</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #27338e, #3d47a3); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 35+ Projects • Computer Vision, Image Processing, Real-time Detection</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">📊 Scikit-Learn</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #F7931E, #FFB347); width: 90%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 40+ Models • Machine Learning, Data Analysis, Predictive Modeling</small>
+</div>
+
+</div>
+</details>
+
+### 🌐 Web Development
+<details>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view Web Technologies (5 technologies)</summary>
+
+<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🌶️ Flask</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #000000, #333333); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 25+ Applications • REST APIs, Web Services, Microservices</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🎸 Django</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">85%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #092E20, #0F4C3A); width: 85%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 15+ Applications • Full-stack Development, Admin Panels</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🏗️ HTML5</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">98%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #E34F26, #F16529); width: 98%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 50+ Websites • Semantic Markup, Responsive Design</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🎨 CSS3</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #1572B6, #33A9DC); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 50+ Websites • Animations, Grid, Flexbox, Modern Layouts</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🅱️ Bootstrap</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #563D7C, #7952B3); width: 90%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 30+ Projects • Rapid Prototyping, Responsive Frameworks</small>
+</div>
+
+</div>
+</details>
+
+### 🔌 IoT & Embedded Systems
+<details>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view IoT Technologies (4 technologies)</summary>
+
+<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🤖 Arduino</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">98%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #00979D, #00B4B8); width: 98%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 45+ Projects • Microcontroller Programming, Sensor Integration</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">📡 ESP32</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #000000, #333333); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 30+ Projects • WiFi/Bluetooth, IoT Connectivity, Real-time Systems</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🍓 Raspberry Pi</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #A22846, #C73E1D); width: 90%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 25+ Projects • Linux Systems, Computer Vision, Edge Computing</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🔧 Sensors & Hardware</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #FF6B6B, #FF8E8E); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 40+ Integrations • Environmental, Motion, Vision, Communication Sensors</small>
+</div>
+
+</div>
+</details>
+
+### 🗄️ Database & Tools
+<details>
+<summary style="cursor: pointer; font-size: 18px; font-weight: bold; color: white; margin-bottom: 15px; padding: 10px; background: rgba(255,255,255,0.1); border-radius: 8px;">🔽 Click to view Database & Tools (3 technologies)</summary>
+
+<div style="background: rgba(255,255,255,0.1); padding: 20px; border-radius: 10px; margin-top: 15px;">
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🐬 MySQL</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">90%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #00758F, #0087A8); width: 90%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 35+ Databases • Relational Design, Query Optimization, Data Management</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">🌿 Git</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #F05032, #F1683A); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 60+ Repositories • Version Control, Collaboration, CI/CD Integration</small>
+</div>
+
+<div style="margin: 15px 0;">
+<span style="color: white; font-weight: bold; font-size: 16px;">📓 Jupyter</span>
+<span style="color: #FFD700; float: right; font-weight: bold;">95%</span>
+<div style="background: #e0e0e0; border-radius: 10px; overflow: hidden; margin: 8px 0; height: 10px;">
+  <div style="background: linear-gradient(90deg, #F37626, #FF9500); width: 95%; height: 100%; border-radius: 10px;"></div>
+</div>
+<small style="color: #e0e0e0;">5+ years • 100+ Notebooks • Data Analysis, Prototyping, Interactive Computing</small>
+</div>
+
+</div>
+</details>
+
+</div>
 <tr style="background-color: #f8f9fa;">
 <td style="padding: 15px; text-align: center; border: none;">
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
