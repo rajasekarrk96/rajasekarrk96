@@ -455,39 +455,23 @@
 </thead>
 <tbody>
 <tr style="background-color: #f8f9fa;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white" alt="Arduino"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/95/?scale=100&title=Expert&width=200&color=00979D" alt="95%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Arduino</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #00979D;">95%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 40+ IoT projects</td>
 </tr>
 <tr style="background-color: #ffffff;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" alt="ESP32"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/92/?scale=100&title=Expert&width=200&color=000000" alt="92%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">ESP32</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #000000;">92%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 25+ smart devices</td>
 </tr>
 <tr style="background-color: #f8f9fa;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/Raspberry_Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white" alt="Raspberry Pi"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/88/?scale=100&title=Expert&width=200&color=A22846" alt="88%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Raspberry Pi</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #A22846;">88%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 15+ edge computing</td>
 </tr>
 <tr style="background-color: #ffffff;">
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://img.shields.io/badge/Sensors-FF6B35?style=for-the-badge&logo=iot&logoColor=white" alt="Sensors"/>
-</td>
-<td style="padding: 15px; text-align: center; border: none;">
-<img src="https://progress-bar.dev/90/?scale=100&title=Expert&width=200&color=FF6B35" alt="90%"/>
-</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Sensors</td>
+<td style="padding: 15px; text-align: center; border: none; font-weight: bold; color: #FF6B35;">90%</td>
 <td style="padding: 15px; text-align: center; border: none; font-weight: bold;">Expert | 50+ integrations</td>
 </tr>
 </tbody>
@@ -502,42 +486,119 @@
 <div align="center">
 
 ### 📂 Project Categories Overview
-<table>
+
+<div align="center" style="margin: 30px 0;">
+
+<table width="100%" style="border: none; border-collapse: separate; border-spacing: 15px;">
 <tr>
-<td align="center">
-<a href="#healthcare--biomedical-projects">
+<td align="center" width="33%">
+
 ![Healthcare](https://img.shields.io/badge/Healthcare_&_Biomedical-8_Projects-red?style=for-the-badge&logo=heart&logoColor=white)
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #DC143C; margin: 10px 0;">🏥 Healthcare & Biomedical</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>8 Healthcare Projects:</strong><br>
+• AI-powered medical diagnosis systems<br>
+• Health monitoring IoT devices<br>
+• Biomedical signal processing<br>
+• Patient care automation systems<br>
+• Medical data analysis platforms
+</div>
+</details>
+
 </td>
-<td align="center">
-<a href="#agriculture--environmental-projects">
+<td align="center" width="33%">
+
 ![Agriculture](https://img.shields.io/badge/Agriculture_&_Environment-7_Projects-green?style=for-the-badge&logo=leaf&logoColor=white)
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #228B22; margin: 10px 0;">🌱 Agriculture & Environment</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>7 Agriculture Projects:</strong><br>
+• Smart irrigation systems<br>
+• Crop monitoring with AI<br>
+• Environmental data collection<br>
+• Precision agriculture solutions<br>
+• Weather prediction models
+</div>
+</details>
+
 </td>
-<td align="center">
-<a href="#safety--transportation">
+<td align="center" width="33%">
+
 ![Safety](https://img.shields.io/badge/Safety_&_Transportation-6_Projects-orange?style=for-the-badge&logo=shield&logoColor=white)
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #FF8C00; margin: 10px 0;">🛡️ Safety & Transportation</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>6 Safety Projects:</strong><br>
+• Vehicle safety monitoring systems<br>
+• Traffic management solutions<br>
+• Emergency response systems<br>
+• Security surveillance platforms<br>
+• Risk assessment tools
+</div>
+</details>
+
 </td>
 </tr>
 <tr>
-<td align="center">
-<a href="#accessibility--assistive-technology">
+<td align="center" width="33%">
+
 ![Accessibility](https://img.shields.io/badge/Accessibility_Tech-5_Projects-blue?style=for-the-badge&logo=accessibility&logoColor=white)
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #1E90FF; margin: 10px 0;">♿ Accessibility Tech</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>5 Accessibility Projects:</strong><br>
+• Assistive technology devices<br>
+• Voice-controlled systems<br>
+• Visual aid applications<br>
+• Mobility assistance tools<br>
+• Communication enhancement platforms
+</div>
+</details>
+
 </td>
-<td align="center">
-<a href="#smart-home--iot-projects">
+<td align="center" width="33%">
+
 ![IoT](https://img.shields.io/badge/Smart_Home_&_IoT-6_Projects-purple?style=for-the-badge&logo=home&logoColor=white)
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #8A2BE2; margin: 10px 0;">🏠 Smart Home & IoT</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>6 Smart Home Projects:</strong><br>
+• Home automation systems<br>
+• Smart lighting and climate control<br>
+• Security and monitoring devices<br>
+• Energy management solutions<br>
+• Connected appliance networks
+</div>
+</details>
+
 </td>
-<td align="center">
-<a href="#industrial--monitoring-projects">
+<td align="center" width="33%">
+
 ![Industrial](https://img.shields.io/badge/Industrial_&_Monitoring-6_Projects-yellow?style=for-the-badge&logo=industry&logoColor=white)
-</a>
+
+<details>
+<summary style="cursor: pointer; font-size: 16px; font-weight: bold; color: #DAA520; margin: 10px 0;">🏭 Industrial & Monitoring</summary>
+<div style="background: #f8f9fa; padding: 15px; border-radius: 10px; margin-top: 10px; text-align: left;">
+<strong>6 Industrial Projects:</strong><br>
+• Process monitoring systems<br>
+• Quality control automation<br>
+• Predictive maintenance tools<br>
+• Industrial IoT solutions<br>
+• Data acquisition platforms
+</div>
+</details>
+
 </td>
 </tr>
 </table>
+
+</div>
 
 </div>
 
