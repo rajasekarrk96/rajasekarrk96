@@ -28,10 +28,10 @@ Versatile full-stack engineer with **7+ years of experience** designing and impl
 
 | Metric | Value |
 |--------|-------|
-| **Projects Completed** | 64+ |
+| **Projects Completed** | 150+ |
 | **Students Trained** | 1000+ |
-| **Live Projects Mentored** | 100+ |
-| **Years of Experience** | 5+ |
+| **Live Projects Mentored** | 50+ |
+| **Years of Experience** | 7+ |
 | **Technologies Mastered** | 15+ |
 
 </div>
@@ -42,9 +42,9 @@ Versatile full-stack engineer with **7+ years of experience** designing and impl
 
 ### 🐍 **Programming Languages**
 ```
-Python (Expert - 5+ years)          → 40+ Projects in AI/ML, Web, IoT
-C/C++ (Expert - 5+ years)           → 25+ Embedded Systems Projects
-JavaScript (Advanced - 5+ years)    → 20+ Frontend Development Projects
+Python (Expert - 7+ years)          → 50+ Projects in AI/ML, Web, IoT
+C/C++ (Expert - 7+ years)           → 25+ Embedded Systems Projects
+JavaScript (Advanced - 7+ years)    → 30+ Frontend Development Projects
 Java (Intermediate)                 → Object-Oriented Programming
 C# (Intermediate)                   → Backend Services Development
 ```
@@ -63,24 +63,24 @@ Matplotlib & Plotly (Expert)        → Data Visualization
 ```
 Flask (Expert)                      → 25+ REST APIs & Microservices
 Django (Advanced)                   → 15+ Full-Stack Applications
-HTML5 (Expert)                      → 50+ Responsive Websites
+HTML5 (Expert)                      → 70+ Responsive Websites
 CSS3 (Expert)                       → Modern Layouts & Animations
 JavaScript/ES6+ (Advanced)          → Interactive Frontend Development
-Bootstrap (Expert)                  → 30+ Responsive Designs
+Bootstrap (Expert)                  → 70+ Responsive Designs
 ```
 
 ### 🔌 **IoT & Embedded Systems**
 ```
 Arduino (Expert)                    → 45+ Microcontroller Projects
 ESP32 (Expert)                      → 30+ WiFi/BLE IoT Devices
-Raspberry Pi (Expert)               → 25+ Edge Computing Solutions
-Sensors & Hardware Integration      → 40+ Multi-Sensor Systems
+Raspberry Pi (Expert)               → 15+ Edge Computing Solutions
+Sensors & Hardware Integration      → 100+ Multi-Sensor Systems
 Arduino IDE & PlatformIO            → Embedded Development
 ```
 
 ### 💾 **Databases & Tools**
 ```
-MySQL (Expert)                      → 35+ Database Designs
+MySQL (Expert)                      → 65+ Database Designs
 SQLite (Advanced)                   → Lightweight Database Solutions
 MongoDB (Intermediate)              → NoSQL Database Solutions
 Git/GitHub (Expert)                 → 60+ Repositories
@@ -390,7 +390,7 @@ Jupyter Notebook (Expert)           → 100+ Data Analysis Notebooks
 ✅ **1000+ Students Trained** - Across AI/ML, IoT, and Full Stack Development  
 ✅ **100+ Projects Mentored** - Live project guidance and technical support  
 ✅ **64+ Innovative Projects** - Spanning healthcare, agriculture, accessibility, and industrial domains  
-✅ **5+ Years Experience** - Full-stack development with proven results  
+✅ **7+ Years Experience** - Full-stack development with proven results  
 ✅ **15+ Technologies Mastered** - Continuous learning and skill development  
 ✅ **Certified Instructor** - Technical workshops and training delivery  
 
