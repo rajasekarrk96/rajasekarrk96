@@ -18,7 +18,7 @@
 
 ## 🎯 Professional Summary
 
-Versatile full-stack engineer with **5+ years of experience** designing and implementing innovative IoT solutions, web applications, and machine learning systems. Specialized expertise in fusing embedded systems (Arduino/ESP32), Python-based full-stack development (Flask/Django), and AI/ML applications with real-world impact. **1000+ students trained** across AI, IoT, and Data Science domains. Proven track record of delivering mission-critical systems for healthcare, accessibility, agriculture, and industrial applications.
+Versatile full-stack engineer with **7+ years of experience** designing and implementing innovative IoT solutions, web applications, and machine learning systems. Specialized expertise in fusing embedded systems (Arduino/ESP32), Python-based full-stack development (Flask/Django), and AI/ML applications with real-world impact. **1000+ students trained** across AI, IoT, and Data Science domains. Proven track record of delivering mission-critical systems for healthcare, accessibility, agriculture, and industrial applications.
 
 ---
 
